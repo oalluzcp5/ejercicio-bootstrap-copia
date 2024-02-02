@@ -1,0 +1,19 @@
+h4, p{ font-family: Calibri; }
+
+div.container div.columnas{ margin-top: 50px; display: flex; align-items: stretch !important;}
+
+.iconos{ margin-top: 150px;}
+.bi{ font-size: 3em;}
+
+.trabajadores{margin-top: 100px; ;}
+.h3tr{ margin-bottom: 70px; }
+
+div.columnas div.col{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+div.columnas div.col img{
+    margin-top: 10px;
+}
