@@ -1,19 +1,73 @@
-h4, p{ font-family: Calibri; }
 
 div.container div.columnas{ margin-top: 50px; display: flex; align-items: stretch !important;}
+div.columnas div.col{
+    background-color: white;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 10px;
+    margin-right: 10px;}
+div.columnas div.col h5.nosotros{ margin: 10px 10px; text-align:justify center;} /*quito p y a */
+div.columnas div.col p.nos{margin: 10px 10px; text-align:justify center; padding: 5px}
+div.columnas div.col a{margin: 10px 10px; text-align:justify center; padding: 5px}
 
-.iconos{ margin-top: 150px;}
+div.columnas div.col img{ margin-top: 10px;}
+
+
+
+ div.container div.iconos{ margin-top: 150px; display: flex !important}
+ div.iconos div.col{background-color: white;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 10px;
+    margin-right: 10px;}
+div.iconos div.col i.bi h5{margin: 50px; padding-bottom: 30px ;text-align:justify center;}/*quito p*/
+div.iconos div.col i.bi p{margin: 50px; padding-bottom: 30px ;text-align:justify center;}
+div.iconos div.col h5 {margin: 5px 5px;}
+div.iconos div.col p {margin: 10px;}
 .bi{ font-size: 3em;}
 
-.trabajadores{margin-top: 100px; ;}
-.h3tr{ margin-bottom: 70px; }
 
-div.columnas div.col{
-    background-color: blanchedalmond;
-    border: 1px solid black;
+.trabajadores{margin-top: 150px; ;}
+.h3tr{ margin-bottom: 70px; font-size: 40px; }
+.trabajadores h5.maria{ font-size: 30px}
+.trabajadores p.texto {font-size: 17px;}
+
+
+
+.horario{margin-top: 150px;}
+.horario h5 { text-align: center; font-size: 40px; }
+.horario p.dias ,p.dias2 ,p.ubic{ font-size: 25px; text-align: center;}
+/*.horario div.col img:hover{ background-image: url(../img/tienda2.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover }*/
+.horario div.col{background-color: white;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 10px;
+    margin-right: 10px;}
+.horario div.col-8 { margin-bottom: 100px}
+.horario img.map{ margin-top: 10px;}
+.horario h5.ubi{ margin: 10px 10px;}
+.horario div.col .pdos { margin-top: 10px ;margin-bottom: 100px; font-size: 20px;}
+
+
+
+form div.formulario{ background-color: white;
+    border: 1px solid rgb(212, 210, 210) !important;
     border-radius: 10px;
     margin-right: 10px;
-}
-div.columnas div.col img{
-    margin-top: 10px;
-}
+    margin-top: 120px;
+    padding: 45px;}
+div.formulario {margin: 50px;}
+div.formulario h3.h3ped { text-align: center; font-size: 35px;}
+div.formulario p{text-align: center; font-size: 24px; color: gray;}
+div.formulario div.col .telef{max}
+div.formulario div.col-12 button.enviar{ font-size: 20px ; background-color: rgb(230, 174, 110); border:rgb(230, 174, 110)}
+
+
+  .footer {
+    background-color: #523823;
+    color: white;
+    padding: 50px;}
+  
+  .footer .bi {color: white; padding-right: 30px;}
+
+  
+  
